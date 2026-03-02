@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Качество", description: "Высококлассные решения, соответствующие самым высоким стандартам" },
-  { title: "Доступность", description: "Профессиональные сайты по честным и прозрачным ценам" },
-  { title: "Прозрачность", description: "Четкая коммуникация без скрытых платежей" },
-  { title: "Клиентоориентированность", description: "Ваши цели и пожелания всегда в приоритете" },
-  { title: "Масштабируемость", description: "Сайты, которые растут вместе с вашим бизнесом" },
-  { title: "Гибкость", description: "Быстрая адаптация под меняющиеся потребности" },
+  { title: "8 лет опыта", description: "Чемпионат успешно проводится на протяжении 8 лет — с устоявшейся репутацией и лояльной аудиторией" },
+  { title: "Топовые судьи", description: "В судействе участвуют ведущие хореографы России — гарантия профессионального уровня" },
+  { title: "География", description: "На конкурс съезжаются участники из разных городов округа — широкий охват аудитории" },
+  { title: "Женские направления", description: "Уникальный формат: соревнования исключительно по женским танцевальным направлениям" },
+  { title: "Активная аудитория", description: "Молодёжь 18–40 лет — платёжеспособная и активная целевая аудитория для партнёров" },
+  { title: "Медийность", description: "Продвижение через ВКонтакте, Телеграм, Инстаграм и личные страницы организаторов" },
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "8", label: "Лет проводится" },
+  { number: "150+", label: "Участников" },
+  { number: "300+", label: "Зрителей" },
+  { number: "31 мая", label: "Дата 2026" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            О Hottie Fest
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Чемпионат, который{" "}
             <span className="text-primary relative">
-              впечатляет
+              зажигает
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Hottie Fest — это ежегодный танцевальный чемпионат по женским направлениям. Мероприятие собирает лучших танцоров региона, топовых хореографов России и сотни зрителей в одном месте.
           </p>
         </div>
 

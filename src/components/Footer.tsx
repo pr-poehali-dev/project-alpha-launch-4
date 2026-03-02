@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Send } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 export function Footer() {
   return (
@@ -6,9 +7,9 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">CodeCraft</h3>
+            <h3 className="text-xl font-bold mb-4">🔥 Hottie Fest 2026</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              2025 CodeCraft. Все права защищены.
+              Танцевальный чемпионат по женским направлениям. 31 мая 2026, РК Babylon.
             </p>
           </div>
 
@@ -17,17 +18,17 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  О нас
+                  О мероприятии
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Услуги
+                  Преимущества
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Портфолио
+                <a href="#pricing" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Пакеты партнёрства
                 </a>
               </li>
               <li>
@@ -42,34 +43,41 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Мы в соцсетях</h4>
             <div className="flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://vk.com/hottiefest"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
+                <Icon name="Users" size={20} />
+                <span className="sr-only">ВКонтакте</span>
               </a>
               <a
-                href="https://github.com"
+                href="https://t.me/herachdetka"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                <Github className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
+                <Send className="h-5 w-5" />
+                <span className="sr-only">Телеграм</span>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://instagram.com/herachdetka"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <Icon name="Camera" size={20} />
+                <span className="sr-only">Инстаграм</span>
               </a>
             </div>
+            <p className="text-xs text-muted-foreground mt-4">
+              * Инстаграм — проект Meta, деятельность которой в России запрещена
+            </p>
           </div>
+        </div>
+
+        <div className="border-t border-border mt-8 pt-8 text-center">
+          <p className="text-sm text-muted-foreground">© 2026 Hottie Fest. Все права защищены.</p>
         </div>
       </div>
     </footer>

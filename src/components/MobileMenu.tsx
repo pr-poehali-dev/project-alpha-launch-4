@@ -7,10 +7,10 @@ export function MobileMenu() {
   const [open, setOpen] = useState(false)
 
   const menuItems = [
-    { href: "#about", label: "О нас" },
-    { href: "#services", label: "Услуги" },
-    { href: "#portfolio", label: "Портфолио" },
-    { href: "#pricing", label: "Тарифы" },
+    { href: "#about", label: "О мероприятии" },
+    { href: "#services", label: "Преимущества" },
+    { href: "#portfolio", label: "Почему мы" },
+    { href: "#pricing", label: "Партнёрство" },
     { href: "#contact", label: "Контакты" },
   ]
 
@@ -24,8 +24,8 @@ export function MobileMenu() {
       </SheetTrigger>
       <SheetContent side="right" className="w-[280px] sm:w-[350px]">
         <SheetHeader>
-          <SheetTitle>Меню навигации</SheetTitle>
-          <SheetDescription>Переход к разделам сайта</SheetDescription>
+          <SheetTitle>🔥 Hottie Fest 2026</SheetTitle>
+          <SheetDescription>Навигация по сайту</SheetDescription>
         </SheetHeader>
         <nav className="flex flex-col gap-1 mt-8">
           {menuItems.map((item) => (
