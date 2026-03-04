@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,76 +6,76 @@
 
 @layer base {
   :root {
-    /* Custom color palette for CodeCraft light mode */
-    --background: 0 0% 99%;
-    --foreground: 240 10% 10%;
+    /* Hottie Fest — light mode */
+    --background: 270 30% 97%;
+    --foreground: 270 30% 8%;
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 10%;
+    --card-foreground: 270 30% 8%;
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 10%;
-    --primary: 350 100% 50%; /* Bright red #FF0035 */
+    --popover-foreground: 270 30% 8%;
+    --primary: 325 78% 52%; /* #E8348A — hot pink */
     --primary-foreground: 0 0% 100%;
-    --secondary: 240 5% 95%;
-    --secondary-foreground: 240 10% 10%;
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 5% 45%;
-    --accent: 350 100% 50%;
+    --secondary: 270 20% 92%;
+    --secondary-foreground: 270 30% 8%;
+    --muted: 270 15% 93%;
+    --muted-foreground: 270 10% 45%;
+    --accent: 325 78% 52%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 350 100% 50%;
+    --destructive: 325 78% 52%;
     --destructive-foreground: 0 0% 100%;
-    --border: 240 5% 90%;
-    --input: 240 5% 90%;
-    --ring: 350 100% 50%;
+    --border: 270 15% 88%;
+    --input: 270 15% 88%;
+    --ring: 325 78% 52%;
     --radius: 0.5rem;
-    --chart-1: 350 100% 50%;
-    --chart-2: 240 5% 35%;
-    --chart-3: 240 5% 45%;
-    --chart-4: 240 5% 55%;
-    --chart-5: 240 5% 65%;
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5% 26%;
-    --sidebar-primary: 240 5% 10%;
+    --chart-1: 325 78% 52%;
+    --chart-2: 270 30% 35%;
+    --chart-3: 270 30% 45%;
+    --chart-4: 270 30% 55%;
+    --chart-5: 270 30% 65%;
+    --sidebar-background: 270 20% 96%;
+    --sidebar-foreground: 270 10% 26%;
+    --sidebar-primary: 325 78% 52%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 5% 96%;
-    --sidebar-accent-foreground: 240 5% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217 91% 60%;
+    --sidebar-accent: 270 15% 92%;
+    --sidebar-accent-foreground: 270 10% 10%;
+    --sidebar-border: 270 13% 88%;
+    --sidebar-ring: 325 78% 52%;
   }
 
   .dark {
-    /* Custom color palette for CodeCraft dark mode */
-    --background: 240 10% 9%; /* #0E131F */
+    /* Hottie Fest — dark mode (афиша: тёмно-фиолетовый фон + яркий розовый) */
+    --background: 258 45% 9%; /* глубокий тёмно-фиолетовый */
     --foreground: 0 0% 98%;
-    --card: 240 10% 13%;
+    --card: 258 40% 13%;
     --card-foreground: 0 0% 98%;
-    --popover: 240 10% 11%;
+    --popover: 258 40% 11%;
     --popover-foreground: 0 0% 98%;
-    --primary: 350 100% 50%; /* Bright red #FF0035 */
+    --primary: 325 78% 52%; /* #E8348A — hot pink */
     --primary-foreground: 0 0% 100%;
-    --secondary: 240 10% 22%; /* #38405F */
+    --secondary: 258 30% 22%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 240 10% 26%; /* #59546C */
-    --muted-foreground: 240 5% 55%; /* #8B939C */
-    --accent: 350 100% 50%;
+    --muted: 258 25% 26%;
+    --muted-foreground: 258 10% 60%;
+    --accent: 325 78% 52%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 350 100% 50%;
+    --destructive: 325 78% 52%;
     --destructive-foreground: 0 0% 100%;
-    --border: 240 10% 22%;
-    --input: 240 10% 22%;
-    --ring: 350 100% 50%;
-    --chart-1: 350 100% 50%;
-    --chart-2: 240 10% 35%;
-    --chart-3: 240 10% 45%;
-    --chart-4: 240 10% 55%;
-    --chart-5: 240 10% 65%;
-    --sidebar-background: 240 5% 10%;
-    --sidebar-foreground: 240 5% 96%;
-    --sidebar-primary: 217 76% 48%;
+    --border: 258 25% 22%;
+    --input: 258 25% 22%;
+    --ring: 325 78% 52%;
+    --chart-1: 325 78% 52%;
+    --chart-2: 258 30% 35%;
+    --chart-3: 258 30% 45%;
+    --chart-4: 258 30% 55%;
+    --chart-5: 258 30% 65%;
+    --sidebar-background: 258 40% 8%;
+    --sidebar-foreground: 258 5% 96%;
+    --sidebar-primary: 325 78% 52%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4% 27%;
-    --sidebar-accent-foreground: 240 5% 96%;
-    --sidebar-border: 240 4% 27%;
-    --sidebar-ring: 217 91% 44%;
+    --sidebar-accent: 258 25% 22%;
+    --sidebar-accent-foreground: 258 5% 96%;
+    --sidebar-border: 258 25% 22%;
+    --sidebar-ring: 325 78% 52%;
   }
 }
 
