@@ -58,9 +58,7 @@ export function PricingSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
             Выберите <span className="text-primary">статус партнёра</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Ограниченное количество мест — не упустите возможность заявить о своём бренде
-          </p>
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
