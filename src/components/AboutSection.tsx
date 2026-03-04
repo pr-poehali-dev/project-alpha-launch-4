@@ -12,8 +12,8 @@ const values = [
 
 const stats = [
   { number: "8", label: "Лет проводится" },
-  { number: "150+", label: "Участников" },
-  { number: "300+", label: "Зрителей" },
+  { number: "180+", label: "Участников" },
+  { number: "400+", label: "Зрителей" },
   { number: "31 мая", label: "Дата 2026" },
 ]
 

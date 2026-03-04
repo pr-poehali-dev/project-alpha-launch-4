@@ -81,7 +81,7 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto animate-fade-in-up animate-delay-100 leading-relaxed">
-          Крупнейший танцевальный чемпионат по женским направлениям в ХМАО. 8 лет успешного проведения, топовые хореографы России, 150+ участников и 300+ зрителей.
+          Крупнейший танцевальный чемпионат по женским направлениям в ХМАО. 8 лет успешного проведения, топовые хореографы России, 180+ участников и 400+ зрителей.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animate-delay-200 mb-12">
@@ -112,11 +112,11 @@ export function HeroSection() {
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" style={{ animationDelay: "0.5s" }} />
-            <span>150+ участников</span>
+            <span>180+ участников</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" style={{ animationDelay: "1s" }} />
-            <span>300+ зрителей</span>
+            <span>400+ зрителей</span>
           </div>
         </div>
       </div>
