@@ -27,12 +27,6 @@ export function Navbar() {
           </a>
 
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-              О мероприятии
-            </a>
-            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
-              Преимущества
-            </a>
             <a href="#portfolio" className="text-sm font-medium hover:text-primary transition-colors">
               Почему мы
             </a>
